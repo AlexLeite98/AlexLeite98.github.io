@@ -7,19 +7,21 @@ html {
     scroll-behavior: smooth;
 }
 
-h1{
-    font-size: 40px; 
+h1 {
+    font-size: 40px;
 }
+
 #titulo {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
     position: fixed;
+    font-size: 30px;
     font-weight: 800;
     margin-top: 0%;
-    z-index: 1001;
+    cursor: pointer;
 }
 
-p{
+p {
     font-size: 20px;
 }
 
@@ -40,7 +42,6 @@ div#logos {
     max-width: 200px;
     margin: 0 auto;
     margin-top: 15px;
-
 }
 
 div#logos img {
@@ -48,6 +49,12 @@ div#logos img {
     height: 40px;
     border-radius: 100%;
     animation: rotacaoBorda 1.5s infinite alternate;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px 15px;
 }
 
 #menu {
@@ -63,12 +70,10 @@ div#logos img {
 }
 
 #menu a {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    display: inline-block;
     padding: 15px;
 }
 
@@ -95,7 +100,6 @@ main img {
     animation: rotacaoBorda 1.5s infinite alternate;
 }
 
-
 @keyframes rotacaoBorda {
     0% {
         box-shadow: 0 0 10px white;
@@ -115,7 +119,7 @@ main img {
 
 }
 
-#div-p{
+#div-p {
     margin: 0 auto;
 }
 
@@ -128,15 +132,14 @@ main img {
     background-color: rgba(230, 207, 2, 0.05);
 }
 
-#sobre{
+#sobre {
     margin-top: 15%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
-    
 }
 
-#tecno{
+#tecno {
     text-align: center;
     margin-top: 20%;
 }
@@ -151,7 +154,7 @@ div#imagens img {
     margin-top: 20%;
 }
 
-#div-input{
+#div-input {
     padding: 2rem;
     border: 1px solid rgb(230, 207, 2);
     max-width: 600px;
