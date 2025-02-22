@@ -1,105 +1,91 @@
-const divCalculadora = document.getElementById('divCalculadora');
-const divTabuada = document.getElementById('divTabuada');
-const calculador = document.getElementById('calculadora');
-const tabuad = document.getElementById('tabuada');
-const volta = document.getElementById('voltar');
-const divInput = document.getElementById('divInput');
-let reCal = document.getElementById('reCal');
-let reTab = document.getElementById('reTab');
+const texto = "sou estudante de programação."
+const ini = document.getElementById('ini');
+const sob = document.getElementById('sob');
+const tec = document.getElementById('tec');
+const con = document.getElementById('con');
+const insta = document.getElementById('insta');
+const git = document.getElementById('git');
 
+ini.addEventListener('mouseenter', entrar);
+ini.addEventListener('mouseout', sair);
 
-function calculadora(){
-    calculador.style.display = 'none'
-    tabuad.style.display = 'none'
-    divCalculadora.style.display = 'block'
-    volta.style.display = 'block'
-    divInput.style.display = 'block' 
-    reCal.style.display = 'block'
-    
-};
+sob.addEventListener('mouseenter', entrar2);
+sob.addEventListener('mouseout', sair2);
 
-function tabuada(){
-    tabuad.style.display = 'none'
-    calculador.style.display = 'none'
-    divTabuada.style.display = 'block'
-    volta.style.display = 'block'
-    divInput.style.display = 'block' 
-    reTab.style.display = 'block'
+tec.addEventListener('mouseenter', entrar3);
+tec.addEventListener('mouseout', sair3);
+
+con.addEventListener('mouseenter', entrar4);
+con.addEventListener('mouseout', sair4);
+
+insta.addEventListener('mouseenter', entrar5);
+insta.addEventListener('mouseout', sair5);
+
+git.addEventListener('mouseenter', entrar6);
+git.addEventListener('mouseout', sair6);
+
+function entrar(){
+    ini.style.background = 'rgba(230, 207, 2, 0.9)'    
 }
 
-function voltar(){
-    calculador.style.display = 'block'
-    tabuad.style.display = 'block'
-    volta.style.display = 'none'
-    divCalculadora.style.display = 'none'
-    divTabuada.style.display = 'none'
-    divInput.style.display = 'none'
-    reCal.style.display = 'none'
-    reTab.style.display = 'none'
-};
+function sair(){
+    ini.style.background = 'rgba(230, 207, 2, 0)'
+}
 
-function adicao(){
-    calc(1)
-    tabu(1)
-};
+function entrar2(){
+    sob.style.background = 'rgba(230, 207, 2, 0.9)'  
+}
 
-function subtracao(){
-    calc(2)
-    tabu(2)
-};
+function sair2(){
+    sob.style.background = 'rgba(230, 207, 2, 0)'
+}
 
-function multiplicacao(){
-    calc(3)
-    tabu(3)
-};
+function entrar3(){
+    tec.style.background = 'rgba(230, 207, 2, 0.9)'   
+}
 
-function divisao(){
-    calc(4)
-    tabu(4)
-};
+function sair3(){
+    tec.style.background = 'rgba(230, 207, 2, 0)'
+}
 
-function calc(a){
-    let num1 = document.getElementById('num1').value;
-    let num2 = document.getElementById('num2').value;
+function entrar4(){
+    con.style.background = 'rgba(230, 207, 2, 0.9)'   
+}
+
+function sair4(){
+    con.style.background = 'rgba(230, 207, 2, 0)'
+}
+
+function entrar5(){
+    insta.style.background = 'rgba(230, 207, 2, 0.2)'    
+}
+
+function sair5(){
+    insta.style.background = 'rgba(230, 207, 2, 1)'
+}
+
+function entrar6(){
+    git.style.background = 'rgba(230, 207, 2, 0.2)'    
+}
+
+function sair6(){
+    git.style.background = 'rgba(230, 207, 2, 1)'
+}
+
+let cont = 0;
+ function animacao(){
     
-    if (a == 1){
-        reCal.innerHTML = (+num1) + (+num2)
-    };
-    if (a == 2){
-        reCal.innerHTML = (+num1) - (+num2)
-    };
-    if (a == 3){
-        reCal.innerHTML = (+num1) * (+num2)
-    };
-    if (a == 4){
-        reCal.innerHTML = (+num1) / (+num2)
-    }; 
-};
-
-function tabu (a){
-    let num = document.getElementById('num').value;
-    let vezes = document.getElementById('vezes').value;
-    let c = "";
-    
-    if (a == 1){
-        for(let i = 1; i <= vezes; i++){
-            c += `<p>${i} + ${num} = ${(+i) + (+num)}</p>`  
-        };
-    };
-    if (a == 2){
-        for(let i = 1; i <= vezes; i++){
-            c += `<p>${i} - ${num} = ${(+i) - (+num)}</p>`
-        };
-    };
-    if (a == 3){
-        for(let i = 1; i <= vezes; i++){
-            c += `<p>${i} x ${num} = ${(+i) * (+num)}</p>`
-        };
-    };
-    if (a == 4){
-        for(let i = 1; i <= vezes; i++){
-            c += `<p>${i} / ${num} = ${(+i) / (+num)}</p>`
-        };
-    };
-    reTab.innerHTML = c  
-};
+    if (cont < texto.length){
+        document.getElementById('animacao').innerHTML += texto.charAt(cont);
+        cont++;
+        setTimeout(animacao, 60);
+    }else{
+        setTimeout(() => {
+            document.getElementById('animacao').innerHTML = "";
+            cont = 0
+            animacao();
+        }, 500);
+    }
+ };
+ 
+ animacao();

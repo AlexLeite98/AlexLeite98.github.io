@@ -1,48 +1,88 @@
 <!DOCTYPE html>
 <html lang="Pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Calculadora</title>
 </head>
+
 <body>
-    <h1>Bem vindo!</h1>
-    <h2>Escolha o que deseja fazer.</h2>
+    <h1 id="titulo">Portifólio</h1>
+    <nav id="menu">
+        <a href="#inicio" id="ini">Inicio</a>
+        <a href="#sobre" id="sob" >Sobre</a>    
+        <a href="#tecno" id="tec">Tecnologias</a>
+        <a href="#contato" id="con">Contato</a>
+    </nav>
 
-    <button onclick="calculadora()" id="calculadora">CALCULADORA</button>
-    <br>
-    <button onclick="tabuada()" id="tabuada">TABUADA</button>
-    <br>
-    <button onclick="voltar()" id="voltar" style="display: none;">VOLTAR</button>
-
-    <div id="divCalculadora" style="display: none;">
-        <br>
-        <input type="number" id="num1">
-        <input type="number" id="num2">
-    </div>
-
-    <div id="divTabuada" style="display: none;">
-        <br>
-        <input type="number" id="num">
-        <br>
-        <input type="number" id="vezes">
-    </div>
-
-    <div id="divInput" style="display: none;">
-        <br>
-        <input type="button" onclick="adicao()" value="+">
-        <input type="button" onclick="subtracao()" value="-">
-        <input type="button" onclick="multiplicacao()" value="x">
-        <input type="button" onclick="divisao()" value="/">
-    </div>
-
-    <p id="reCal" style="display: none;"></p>
+    <main id="inicio">
+        
+            <img src="img/alex.jpg" alt="minha-foto" id="imgs" >
+        
+            <h1>Olá, meu nome é <strong>Alex!</strong></h1>
+            <h2 id="h2-animado">Eu <strong id="animacao"></strong></h2>
+            
+            
+    </main>
     
-    <div id="reTab" style="display: none;">
-        <p></p>
+    <div id="logos">
+        <a href="https://www.instagram.com/alex.l.leite/"><img src="img/logotipo-do-instagram.png"
+        alt="instagram" id="insta"></a>
+
+        <a href="https://github.com/AlexLeite98"><img src="img/github.png" alt="github" id="git"></a>
     </div>
 
+    <section id="sobre">
+        <br><br><br><br><br><br>
+        <div id="div-p">
+            <h1>Sobre mim</h1><br><br>
+            <div id="div-p2">
+                <p>
+                    Olá, me chamo Alex Leite, tenho 26 anos e estou estudando para ser programador, atualmente estou estudando
+                    javascript, junto de html, css e React. Desejo me tornar um desenvolvedor de aplicativos moveis, este é meu
+                    objetivo.
+                </p>
+                <p>
+                    <em>
+                        "Em tudo que fizerem, trabalhem de bom ânimo, como se fosse para o Senhor, e não para os homens."
+                    </em>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecno">
+        <br><br><br><br><br><br>
+        <h1>Tecnologias que estou estudando</h1>
+
+        <div id="imagens">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                alt="javascript" />
+
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5" />
+
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3" />
+
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="react" />
+
+        </div>
+    </section>
+
+    <section id="contato">
+        <br><br><br><br><br><br>
+        <h1>Entre em contato.</h1>
+        <div id="div-input">
+            <input type="text" placeholder="Nome" class="input"><br>
+            <textarea name="Escreva" id="escreva" placeholder="Dê seu feedback" class="input" ></textarea>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
+
 </html>

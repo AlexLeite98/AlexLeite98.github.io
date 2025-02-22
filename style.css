@@ -1,9 +1,173 @@
-body{
-    background-color: aquamarine;
+body {
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1{
+    font-size: 40px; 
+}
+#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    font-weight: 800;
+    margin-top: 0%;
+    z-index: 1001;
+}
+
+p{
+    font-size: 20px;
+}
+
+strong {
+    color: rgb(230, 207, 2);
+}
+
+em {
+    color: rgb(230, 207, 2);
+}
+
+div#logos {
     text-align: center;
-    background-color: rgb(0, 157, 47);
-    color: rgb(255, 255, 255);
+    border: 2px solid rgb(230, 207, 2);
+    border-radius: 16px;
+    background-color: rgb(230, 207, 2, 0.05);
+    padding: 0.5rem;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+div#logos img {
+    background-color: rgb(230, 207, 2);
+    height: 40px;
+    border-radius: 100%;
+    animation: rotacaoBorda 1.5s infinite alternate;
+}
+
+#menu {
+    background-color: rgba(230, 207, 2, 0.9);
+    position: fixed;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 5px 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+#menu a {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#imgs {
+    margin-top: 20%;
+    width: 200px;
+    height: 200px;
+
+}
+
+main img {
+    text-align: center;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    border: 2px solid rgb(230, 207, 2);
+    animation: rotacaoBorda 1.5s infinite alternate;
+}
+
+
+@keyframes rotacaoBorda {
+    0% {
+        box-shadow: 0 0 10px white;
+    }
+
+    100% {
+        box-shadow: 0 0 20px rgb(230, 207, 2);
+    }
+
+}
+
+#h2-animado {
+    font-size: 24px;
+    text-align: left;
+    width: 45%;
+    margin: 0 auto;
+
+}
+
+#div-p{
+    margin: 0 auto;
+}
+
+#div-p2 {
+    padding: 2rem;
+    border: 1px solid rgb(230, 207, 2);
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(230, 207, 2, 0.05);
+}
+
+#sobre{
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    
+}
+
+#tecno{
+    text-align: center;
+    margin-top: 20%;
+}
+
+div#imagens img {
+    height: 100px;
+    margin-top: 3%;
+}
+
+#contato {
+    text-align: center;
+    margin-top: 20%;
+}
+
+#div-input{
+    padding: 2rem;
+    border: 1px solid rgb(230, 207, 2);
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(230, 207, 2, 0.05);
+}
+
+.input {
+    padding: 0.75rem;
+    width: 80%;
+    border-radius: 16px;
+    background-color: rgba(15, 15, 15, 1);
+    margin: 5px;
+}
+
+#div-input textarea {
+    height: 100px;
 }
