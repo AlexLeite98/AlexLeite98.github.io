@@ -15,29 +15,38 @@
         <ul>
             <li><a href="#inicio" id="ini">Inicio</a></li>
             <li><a href="#sobre" id="sob">Sobre</a></li>
+            <li><a href="#projetos" id="pro">Projetos</a></li>
             <li><a href="#tecno" id="tec">Tecnologias</a></li>
             <li><a href="#contato" id="con">Contato</a></li>
         </ul>
     </nav>
 
     <main id="inicio">
-        <img src="img/alex.jpg" alt="minha-foto" id="imgs">
+        
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejAxeWVvNTJxNmFwbndyb3RmMHYzbGtrbmV4YXRsY2sydmpyMTV3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UNHplVba2fweBfkLHv/giphy.gif" alt="gif" id="gif">
 
-        <h1>Olá, meu nome é <strong>Alex!</strong></h1>
-        <h2 id="h2-animado">Eu <strong id="animacao"></strong></h2>
+        <div id="perfil">
+            <img src="img/alex.jpg" alt="minha-foto" id="imgs">
+        </div>
+
+        <div id="borda">
+            <h1>Olá, meu nome é <strong>Alex!</strong></h1>
+            
+            <h2 id="h2-animado">Eu sou estudante de <strong>Javascript.</strong></h2>
+            </div>
+
+        <div id="logos">
+            <a href="https://www.instagram.com/alex.l.leite/"><img src="img/logotipo-do-instagram.png" alt="instagram"
+                    id="insta"></a>
+    
+            <a href="https://github.com/AlexLeite98"><img src="img/github.png" alt="github" id="git"></a>
+        </div>  
     </main>
 
-    <div id="logos">
-        <a href="https://www.instagram.com/alex.l.leite/"><img src="img/logotipo-do-instagram.png" alt="instagram"
-                id="insta"></a>
-
-        <a href="https://github.com/AlexLeite98"><img src="img/github.png" alt="github" id="git"></a>
-    </div>
-
     <section id="sobre">
-        <br><br><br><br><br><br>
         <div id="div-p">
-            <h1>Sobre mim</h1><br><br>
+            <h1>Sobre mim</h1>
+
             <div id="div-p2">
                 <p>
                     Olá, me chamo Alex Leite, tenho 26 anos e estou estudando para ser programador, atualmente estou
@@ -46,6 +55,7 @@
                     este é meu
                     objetivo.
                 </p>
+                <br>
                 <p>
                     <em>
                         "Em tudo que fizerem, trabalhem de bom ânimo, como se fosse para o Senhor, e não para os
@@ -56,35 +66,72 @@
         </div>
     </section>
 
+    <section id="projetos">
+        <div id="div-projetos">
+            <h1>Meus projetos</h1>
+
+            <div id="projeto1">
+                <img src="img/projeto1.jpg" alt="projeto1">
+                
+                <div id="div-projeto1">
+                    <h2>Nome do projeto 1</h2><br>
+                    
+                    <p>Exemplo de descrição do primeiro projeto, so um exemplo pois ainda não tenho projetos feitos.</p>
+                </div>
+            </div>
+
+            <div id="projeto2">
+                <img src="img/projeto2.png" alt="projeto2">
+                
+                <div id="div-projeto2">
+                    <h2>Nome do projeto 2</h2><br>
+                    
+                    <p>Exemplo de descrição do primeiro projeto, so um exemplo pois ainda não tenho projetos feitos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="tecno">
-        <br><br><br><br><br><br>
         <h1>Tecnologias que estou estudando</h1>
 
         <div id="imagens">
-
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            <div class="logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
                 alt="javascript" />
+            </div>
 
+            <div class="logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5" />
+            </div>
 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5" />
+            <div class="logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3" />
+            </div>
 
-
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3" />
-
-
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="react" />
+            <div class="logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="react" />
+            </div>
 
         </div>
     </section>
 
     <section id="contato">
-        <br><br><br><br><br><br>
         <h1>Entre em contato.</h1>
+
         <div id="div-input">
-            <input type="text" placeholder="Nome" class="input"><br>
-            <textarea name="Escreva" id="escreva" placeholder="Dê seu feedback" class="input"></textarea>
+            <input type="text" placeholder="Nome" class="input">
+            <input type="email" placeholder="email" class="input">
+            <textarea name="Escreva" id="escreva" placeholder="Dê seu feedback" class="input"></textarea><br>
+            <button>Enviar</button>
         </div>
     </section>
+    <br>
+    <div id="div-footer">
+        <footer>
+            Meu Portifólio
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 

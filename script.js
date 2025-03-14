@@ -1,8 +1,8 @@
-const texto = "sou estudante de programação."
 const ini = document.getElementById('ini');
 const sob = document.getElementById('sob');
 const tec = document.getElementById('tec');
 const con = document.getElementById('con');
+const pro = document.getElementById('pro');
 const insta = document.getElementById('insta');
 const git = document.getElementById('git');
 
@@ -18,6 +18,9 @@ tec.addEventListener('mouseout', sair3);
 con.addEventListener('mouseenter', entrar4);
 con.addEventListener('mouseout', sair4);
 
+pro.addEventListener('mouseenter', entrar7);
+pro.addEventListener('mouseout', sair7);
+
 insta.addEventListener('mouseenter', entrar5);
 insta.addEventListener('mouseout', sair5);
 
@@ -25,7 +28,7 @@ git.addEventListener('mouseenter', entrar6);
 git.addEventListener('mouseout', sair6);
 
 function entrar() {
-    ini.style.background = 'rgba(230, 207, 2, 0.9)'
+    ini.style.background = '#fc993669'
 }
 
 function sair() {
@@ -33,7 +36,7 @@ function sair() {
 }
 
 function entrar2() {
-    sob.style.background = 'rgba(230, 207, 2, 0.9)'
+    sob.style.background = '#fc993669'
 }
 
 function sair2() {
@@ -41,7 +44,7 @@ function sair2() {
 }
 
 function entrar3() {
-    tec.style.background = 'rgba(230, 207, 2, 0.9)'
+    tec.style.background = '#fc993669'
 }
 
 function sair3() {
@@ -49,7 +52,7 @@ function sair3() {
 }
 
 function entrar4() {
-    con.style.background = 'rgba(230, 207, 2, 0.9)'
+    con.style.background = '#fc993669'
 }
 
 function sair4() {
@@ -57,35 +60,25 @@ function sair4() {
 }
 
 function entrar5() {
-    insta.style.background = 'rgba(230, 207, 2, 0.2)'
+    insta.style.background = '#fc993669'
 }
 
 function sair5() {
-    insta.style.background = 'rgba(230, 207, 2, 1)'
+    insta.style.background = "linear-gradient(180deg, #EFBF04, #fc9936a3)";
 }
 
 function entrar6() {
-    git.style.background = 'rgba(230, 207, 2, 0.2)'
+    git.style.background = '#fc993669'
 }
 
 function sair6() {
-    git.style.background = 'rgba(230, 207, 2, 1)'
+    git.style.background = "linear-gradient(180deg, #EFBF04, #fc9936a3)"
 }
 
-let cont = 0;
-function animacao() {
+function entrar7() {
+    pro.style.background = '#fc993669'
+}
 
-    if (cont < texto.length) {
-        document.getElementById('animacao').innerHTML += texto.charAt(cont);
-        cont++;
-        setTimeout(animacao, 60);
-    } else {
-        setTimeout(() => {
-            document.getElementById('animacao').innerHTML = "";
-            cont = 0
-            animacao();
-        }, 500);
-    }
-};
-
-animacao();
+function sair7() {
+    pro.style.background = 'rgba(230, 207, 2, 0)'
+}
