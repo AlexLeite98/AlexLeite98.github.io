@@ -20,7 +20,7 @@
 
 buttom{
 	cursor: pointer;
-	margin: 30px;
+	padding: 30px;
 	background: linear-gradient(to right, #d9d9d9, #a6a6a6, #d9d9d9);
 }
 
