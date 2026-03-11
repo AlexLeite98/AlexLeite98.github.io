@@ -18,6 +18,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+buttom{
+	cursor: pointer;
+}
+
 body{
 	min-height: 100vh;
 	font-family: "Cinzel", serif;
