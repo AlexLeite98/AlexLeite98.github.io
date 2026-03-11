@@ -1,1 +1,4 @@
-console.log('Ola, mundo');
+
+function tocar(){
+	document.getElementById("musica").play();
+}
