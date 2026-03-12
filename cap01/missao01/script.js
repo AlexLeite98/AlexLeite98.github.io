@@ -4,6 +4,6 @@ function tocar(){
 }
 
 function click(){
-	document.getElementById("descricao").style.display = "none";
+	
 	document.getElementById("teste").style.display = "block";
 }
