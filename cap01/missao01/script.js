@@ -4,5 +4,5 @@ function tocar(){
 }
 
 function click(){
-	document.getElementById("descricao")
+	document.getElementById("descricao") = document.getElementById("teste")
 }
