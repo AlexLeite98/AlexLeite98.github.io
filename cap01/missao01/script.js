@@ -11,6 +11,7 @@ function missao2(){
 function voltar(){
 	document.getElementById("texto1").style.display = "block";
 	document.getElementById("texto2").style.display = "none";
+	document.getElementById("texto3").style.display = "none";
 	
 }
 
