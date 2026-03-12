@@ -10,4 +10,14 @@ function voltar(){
 	
 }
 
+function analise(){
+	let valor = document.getElementById("prompt").value;
+	
+	if(valor%2 == 0){
+		document.getElementById("resultado").innerHTML = "Par";
+	}else{
+		document.getElementById("resultado").innerHTML = "Impar";
+	}
+}
+
 
