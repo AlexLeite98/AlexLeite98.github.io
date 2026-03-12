@@ -4,7 +4,3 @@ function tocar(){
 	document.getElementById("texto").style.display = "block";
 }
 
-function click(){
-	return document.getElementById("descricao").innerHTML = "Ta funcionando";
-	document.getElementById("texto").style.display = "block";
-}
