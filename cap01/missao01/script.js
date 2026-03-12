@@ -5,5 +5,5 @@ function tocar(){
 
 function click(){
 	
-	document.getElementById("teste").style.display = "block";
+	document.getElementById("texto").style.display = "block";
 }
