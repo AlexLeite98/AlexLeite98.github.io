@@ -1,5 +1,5 @@
 
-function tocar(){
+function proximo(){
 	document.getElementById("musica").play();
 	document.getElementById("descricao").style.display = "none";
 	document.getElementById("texto").style.display = "block";
