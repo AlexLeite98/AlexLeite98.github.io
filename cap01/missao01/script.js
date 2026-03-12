@@ -4,6 +4,6 @@ function tocar(){
 }
 
 function click(){
-	
+	document.getElementById("descricao").innerHTML = "Ta funcionando"
 	document.getElementById("texto").style.display = "block";
 }
