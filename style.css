@@ -74,6 +74,9 @@ img{
 }
 
 #resultado{
+	justify-content: center;
+	align-items: center;
+	margin: auto;
 	background-color: white;
 	border-radius: 20px;
 	color: blue;
