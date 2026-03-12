@@ -2,6 +2,6 @@
 function tocar(){
 	document.getElementById("musica").play();
 	document.getElementById("descricao").style.display = "none";
-	document.getElementById("texto").style.display = "block";
+	document.getElementsByClassName("texto").style.display = "block";
 }
 
