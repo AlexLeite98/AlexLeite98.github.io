@@ -10,7 +10,8 @@ function click(){
 
 	if(valor%2 == 0){
 		document.getElementById("resultado").innerHTML = "Ordem dos Pares!"
-	}else document.getElementById("resultado").innerHTML = "Caos dos Impares!"
+	}else{ document.getElementById("resultado").innerHTML = "Caos dos Impares!"
+	}
 }
 
 document.getElementById("analisar").onclick = click();
