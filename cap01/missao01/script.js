@@ -1,4 +1,3 @@
-
 function proximo(){
 	document.getElementById("texto1").style.display = "none";
 	document.getElementById("texto2").style.display = "block";
