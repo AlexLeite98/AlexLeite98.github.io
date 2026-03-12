@@ -4,7 +4,6 @@ function tocar(){
 	document.getElementById("descricao").style.display = "none";
 	document.getElementById("texto").style.display = "block";
 }
-document.getElementById("iniciar").onclick = tocar();
 
 function click(){
 	let valor = document.getElementById("prompt").value;
@@ -16,4 +15,3 @@ function click(){
 }
 
 
-document.getElementById("analisar").onclick = click();
