@@ -5,6 +5,7 @@ function tocar(){
 	document.getElementById("texto").style.display = "block";
 }
 
+
 function click(){
 	let valor = document.getElementById("prompt").value;
 
@@ -14,4 +15,5 @@ function click(){
 	}
 }
 
+document.getElementById("iniciar").onclick = tocar();
 document.getElementById("analisar").onclick = click();
