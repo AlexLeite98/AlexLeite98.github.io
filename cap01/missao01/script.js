@@ -26,5 +26,11 @@ function analise(){
 }
 
 function alistar(){
+	let idade = document.getElementById("idade").value;
 	
+	if(idade<18){
+		document.getElementById("").innerHTML = "Alistamento negado! Menor de idade.";
+	}else{
+		document.getElementById("").innerHTML = "Alistamento aprovado!"
+	}
 }
