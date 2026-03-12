@@ -25,4 +25,6 @@ function analise(){
 	}
 }
 
-
+function alistar(){
+	
+}
