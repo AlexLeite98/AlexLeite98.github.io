@@ -14,9 +14,9 @@ function analise(){
 	let valor = document.getElementById("prompt").value;
 	
 	if(valor%2 == 0){
-		document.getElementById("resultado").innerHTML = "Par";
+		document.getElementById("resultado").innerHTML = "Ordem dos Pares!";
 	}else{
-		document.getElementById("resultado").innerHTML = "Impar";
+		document.getElementById("resultado").innerHTML = "Caos dos Impares!";
 	}
 }
 
