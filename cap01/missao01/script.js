@@ -5,3 +5,4 @@ function tocar(){
 	document.getElementById("texto").style.display = "block";
 }
 
+function ()
