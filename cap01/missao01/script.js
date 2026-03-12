@@ -7,8 +7,7 @@ function tocar(){
 
 function voltar(){
 	document.getElementById("musica").play();
-	document.getElementById("descricao").style.display = "block";
-	document.getElementById("texto").style.display = "none";
+	
 }
 
 
