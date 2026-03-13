@@ -13,6 +13,11 @@ function missao3(){
 	document.getElementById("texto4").style.display = "block";
 }
 
+function missao4(){
+	document.getElementById("texto4").style.display = "none";
+	document.getElementById("texto5").style.display = "block";
+}
+
 function voltar(){
 	document.getElementById("texto1").style.display = "block";
 	document.getElementById("texto2").style.display = "none";
