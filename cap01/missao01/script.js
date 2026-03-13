@@ -29,8 +29,8 @@ function alistar(){
 	let idade = document.getElementById("idade").value;
 	
 	if(idade<18){
-		document.getElementById("").innerHTML = "Alistamento negado! Menor de idade.";
+		document.getElementById("resultado2").innerHTML = "Alistamento negado! Menor de idade.";
 	}else{
-		document.getElementById("").innerHTML = "Alistamento aprovado!"
+		document.getElementById("resultado2").innerHTML = "Alistamento aprovado!"
 	}
 }
