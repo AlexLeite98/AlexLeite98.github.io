@@ -40,3 +40,8 @@ function alistar(){
 		document.getElementById("resultado2").innerHTML = "Alistamento negado! Menor de idade.";
 	}
 }
+
+function media(){
+	let nota1 = document.getElementById("arcano").value;
+	let nota2 = document.getElementById("runas").value;
+}
