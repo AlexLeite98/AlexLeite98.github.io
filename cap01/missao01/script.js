@@ -23,6 +23,7 @@ function voltar(){
 	document.getElementById("texto2").style.display = "none";
 	document.getElementById("texto3").style.display = "none";
 	document.getElementById("texto4").style.display = "none";
+	document.getElementById("texto5").style.display = "none";
 	
 }
 
