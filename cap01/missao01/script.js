@@ -42,8 +42,8 @@ function alistar(){
 }
 
 function media(){
-	let nota1 = document.getElementById("arcano").value;
-	let nota2 = document.getElementById("runas").value;
+	let nota1 = Number(document.getElementById("arcano").value);
+	let nota2 = Number(document.getElementById("runas").value;)
 	let media = (nota1+nota2)/2;
 	
 	if(media >= 8){
