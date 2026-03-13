@@ -26,7 +26,7 @@ function analise(){
 }
 
 function alistar(){
-	let idade = document.getElementById("prompt").value;
+	let idade = document.getElementById("idade").value;
 	
 	if(idade<18){
 		document.getElementById("resultado2").innerHTML = "Alistamento negado! Menor de idade.";
