@@ -44,4 +44,12 @@ function alistar(){
 function media(){
 	let nota1 = document.getElementById("arcano").value;
 	let nota2 = document.getElementById("runas").value;
+	let media = (nota1+nota2)/2;
+	
+	if(media >= 8){
+		document.getElementById("resultado3").innerHTML = "Parabêns! Vc vai para capital.";
+		
+	}else{
+		document.getElementById("resultado3").innerHTML = "Infelizmente vc não acançou a média.";
+	}
 }
