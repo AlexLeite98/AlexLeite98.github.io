@@ -54,6 +54,10 @@ img{
 	box-shadow: 2px 2px 10px black;
 }
 
+.imgsecao{
+	height: 200px;
+}
+
 #secao{
 	background: #EAD7A1;
 	height: auto;
