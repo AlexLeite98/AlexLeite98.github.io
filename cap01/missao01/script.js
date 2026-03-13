@@ -8,6 +8,11 @@ function missao2(){
 	document.getElementById("texto3").style.display = "block";
 }
 
+function missao3(){
+	document.getElementById("texto3").style.display = "none";
+	document.getElementById("texto4").style.display = "block";
+}
+
 function voltar(){
 	document.getElementById("texto1").style.display = "block";
 	document.getElementById("texto2").style.display = "none";
