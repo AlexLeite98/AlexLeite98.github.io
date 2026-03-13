@@ -46,7 +46,7 @@ function media(){
 	let nota2 = Number(document.getElementById("runas").value);
 	let media = (nota1+nota2)/2;
 	
-	if(media >= 8){
+	if(media >= 6.5){
 		document.getElementById("resultado3").innerHTML = "Parabêns! Vc vai para capital.";
 		
 	}else{
