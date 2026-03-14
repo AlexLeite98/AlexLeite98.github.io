@@ -17,6 +17,7 @@ function missao4(){
 	document.getElementById("voltar").style.display = "none";
 	document.getElementById("texto4").style.display = "none";
 	document.getElementById("texto5").style.display = "block";
+	document.getElementById("fim").style.display = "block";
 }
 
 function voltar(){
