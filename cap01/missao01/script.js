@@ -59,3 +59,13 @@ function media(){
 		document.getElementById("resultado3").innerHTML = "Infelizmente vc não acançou a média.";
 	}
 }
+
+function calcular(){
+    let numero1 = document.getElementById("numero1").value;
+    let numero2 = document.getElementById("numero2").value;
+    
+    let soma = numero1+numero2;
+    let subtracao = numero1-numero2;
+    let multiplicacao = numero1*numero2;
+    let divisao = numero1/numero2;
+}
