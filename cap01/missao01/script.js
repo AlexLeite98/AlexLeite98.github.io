@@ -21,7 +21,7 @@ function missao4(){
 }
 
 function fim(){
-	document.getElementById("fim").style.display = "block";
+	document.getElementById("fim").style.display = "none";
 	document.getElementById("texto5").style.display = "none";
 	document.getElementById("texto6").style.display = "block";
 }
