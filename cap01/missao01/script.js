@@ -69,5 +69,5 @@ function calcular(){
     let multiplicacao = numero1*numero2;
     let divisao = numero1/numero2;
     
-    document.getElementById("resultado4").innerHTML = `Runa da Soma:${soma}\nRuna da Subtracao:${subtracao}\nRuna da Multiplicacao:${multiplicacao}\nRuna da Divisão:${divisao}`;
+    document.getElementById("resultado4").innerHTML = `Runa da Soma:${soma} <br>Runa da Subtracao:${subtracao} <br>Runa da Multiplicacao:${multiplicacao} <br>Runa da Divisão:${divisao}`;
 }
