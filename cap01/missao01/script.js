@@ -68,4 +68,6 @@ function calcular(){
     let subtracao = numero1-numero2;
     let multiplicacao = numero1*numero2;
     let divisao = numero1/numero2;
+    
+    document.getElementById("").innerHTML = `Runa da Soma:${soma}\nRuna da Subtracao:${subtracao}\nRuna da Multiplicacao:${multiplicacao}\nRuna da Divisão:${divisao}`;
 }
