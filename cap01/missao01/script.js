@@ -24,6 +24,7 @@ function fim(){
 	document.getElementById("fim").style.display = "none";
 	document.getElementById("texto5").style.display = "none";
 	document.getElementById("texto6").style.display = "block";
+	document.getElementById("cap2").style.display = "block";
 }
 
 function voltar(){
