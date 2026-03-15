@@ -38,7 +38,7 @@ function voltar(){
 
 function sinal(){
 	let res = [];
-	for(i=0; i<=10; i++){
+	for(i=0; i<10; i++){
 		res[i] = i+1;
 	}
 	document.getElementById("resultado1").innerHTML = `${res}`;
