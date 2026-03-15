@@ -19,6 +19,7 @@
 }
 
 button{
+	font-family: "Cinzel", serif;
 	cursor: pointer;
 	width: auto;
 	margin: 5px 0 5px 0;
