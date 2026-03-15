@@ -38,6 +38,6 @@ function voltar(){
 
 function sinal(){
 	for(i=1; i<=10; i++){
-		document.getElementById("resultado1").innerHTML = 
+		document.getElementById("resultado1").innerHTML = `${i} - `;
 	}
 }
