@@ -46,7 +46,7 @@ function sinal(){
 }
 
 function numer0(){
-	let res = document.getElementById("resultado2").value;
+	let res = document.getElementById("prompt1").value;
 	
 	for(i=0; i<1; i++){
 		i -= 1;
