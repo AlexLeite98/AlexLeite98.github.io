@@ -44,3 +44,12 @@ function sinal(){
 	document.getElementById("resultado1").innerHTML = `${res}`;
 	
 }
+
+function numer0(){
+	let res = document.getElementById("resultado2").value;
+	
+	for(i=0; i<1; i++){
+		i -= 1;
+		
+	}
+}
