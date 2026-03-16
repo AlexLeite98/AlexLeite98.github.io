@@ -50,8 +50,12 @@ function numer0(){
 	
 	for(i=0; i<1; i++){
 		i -= 1;
+		
 		if(res!=0){
-			
+			document.getElementById("resultado2").innerHTML = res;
+		}else{
+			document.getElementById("botao1").style.display = "none";
+			document.getElementById("resultado2").style.display = "none";
 		}
 	}
 }
