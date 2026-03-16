@@ -50,6 +50,8 @@ function numer0(){
 	
 	for(i=0; i<1; i++){
 		i -= 1;
-		
+		if(res!=0){
+			
+		}
 	}
 }
