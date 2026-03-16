@@ -51,9 +51,11 @@ function numer0(){
 		if(res2==0){
 			document.getElementById("botao1").style.display = "none";
 			document.getElementById("resultado2").innerHTML = "Orbe de ecuta se calou!";
+		}else{
+			document.getElementById("resultado2").innerHTML = `${res2}`;
 		}
 		
 		
-		document.getElementById("resultado2").innerHTML = `${res2}`;
+		
 	
 }
