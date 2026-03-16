@@ -56,6 +56,7 @@ function numer0(){
 		}else{
 			document.getElementById("botao1").style.display = "none";
 			document.getElementById("resultado2")innerHTML = "Orbe de escuta se calou!";
+			i += 1;
 		}
 	}
 }
