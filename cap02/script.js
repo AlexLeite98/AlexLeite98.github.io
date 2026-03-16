@@ -48,11 +48,6 @@ function sinal(){
 function numer0(){
 	let res2 = document.getElementById("prompt1").value;
 		
-	if(res2!=0){
 		document.getElementById("resultado2").innerHTML = `${res2}`;
-	}else{
-		document.getElementById("botao1").style.display = "none";
-		document.getElementById("resultado2")innerHTML = "Orbe de escuta se calou!";
 	
-	}
 }
