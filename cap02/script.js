@@ -65,5 +65,5 @@ let i = 100;
 
 function batalha(){
 	i -= 5;
-	document.getElementById("teste").innerHTML = 1;
+	document.getElementById("teste").innerHTML = i;
 }
