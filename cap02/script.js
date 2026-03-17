@@ -62,5 +62,8 @@ function ChuvaDeRunas(){
 }
 
 function batalha(){
-	
+	let hpTroll = Number(document.getElementById("HpTroll"));
+	let hpAlex = Number(document.getElementById("HpAlex"));
+	let hpMeri = Number(document.getElementById("HpMeri"));
+	let hpSelene = Number(document.getElementById("HpSelene"));
 }
