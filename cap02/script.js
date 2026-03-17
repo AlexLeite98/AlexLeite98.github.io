@@ -59,7 +59,9 @@ function numer0(){
 function ChuvaDeRunas(){
 	let res3 = document.getElementById("resultado3");
 	
-	for(i=0; i<=10; i++){
-		res3.innerHTML += i + '<br>';
+	for(i=0; i<=20; i++){
+		if(i%2 == 0){
+			res3.innerHTML += i + '<br>';
+		}
 	}
 }
