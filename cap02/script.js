@@ -50,9 +50,9 @@ function numer0(){
 		
 		if(res2==0){
 			document.getElementById("botao1").style.display = "none";
-			document.getElementById("resultado2").innerHTML = '<strong class="neon">Orbe de ecuta se calou!</strong>';
+			document.getElementById("resultado2").innerHTML = "Orbe de ecuta se calou!";
 		}else{
-			document.getElementById("resultado2").innerHTML = `<strong class="neon">${res2}</strong>`;
+			document.getElementById("resultado2").innerHTML = `${res2}`;
 		}
 		
 		
