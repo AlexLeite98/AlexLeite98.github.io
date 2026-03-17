@@ -66,4 +66,5 @@ function batalha(){
 	let hpAlex = Number(document.getElementById("HpAlex"));
 	let hpMeri = Number(document.getElementById("HpMeri"));
 	let hpSelene = Number(document.getElementById("HpSelene"));
+	
 }
