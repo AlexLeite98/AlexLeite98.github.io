@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../style.css">
+  
+  <title>Missôes do Bruxo</title>
+</head>
+
+<body>
+	<header>
+		<h1 class="texto-prata">A Saga do Bruxo Programador</h1>
+		
+		<a href="../index.html" class="texto-prata">Inicio</a>
+		
+		<a href="../informacoes/index.html" class="texto-prata">Personagens </a>
+		
+		<a href="../cap01/missao01/index.html" class="texto-prata">Cap 1 </a>
+		
+	</header>
+	
+	<main>
+		
+		<section>
+			<img src="../img/cap2/cap2.png" alt="Img feito por I.A">
+		</section>
+		
+		<section id=secao>
+			
+			<div id="texto1">
+				<h2 class="texto-prata">🌲 CAPÍTULO 2</h2>
+				<h3 class="texto-prata">A Floresta de Varnwood</h3>
+				<p class="texto-prata">
+					
+				</p>
+				
+				<button onclick="missao1()">Missão 1</button>
+			</div>
+			
+			<div id="texto2" style="display: none">
+				<h2 class="texto-prata">⚔️ MISSÃO 1 ⚔️</h2>
+				<h3 class="texto-prata">O Portal das Dez Runas</h3>
+				
+				<p class="texto-prata">
+					
+				</p>
+				
+				<img src="../img/cap2/portal.png" alt="IMG feito por I.A" class="imgsecao">
+				
+				<h4 class="texto-prata">Use um sinal para organizar os números</h4>
+				<button onclick="sinal()">SINAL</button>
+				
+				<p id="resultado1" class="resultado"></p>
+				
+				<button onclick="missao2()">Missão 2</button>
+			</div>
+			
+			<div id="texto3" style="display: none">
+				<h2 class="texto-prata">⚔️ MISSÃO 2⚔️</h2>
+				<h3 class="texto-prata">O Eco da Runa Zero</h3>
+				
+				<p class="texto-prata">
+					
+				</p>
+				
+				<img src="../img/cap2/runa-zero.png" alt="Feito por I.A" class="imgsecao">
+				
+				<h4 class="texto-prata">Digite um número</h4>
+				
+				<input type="number" id="prompt1">
+				<br>
+				<button onclick="numer0()" id="botao1">Diga</button>
+				
+				<p id="resultado2" class="resultado"><strong>&</strong></p>
+				
+				<button onclick="missao3()">Missão 3</button>
+			</div>
+			
+			<div id="texto4" style="display: none">
+				<h2 class="texto-prata">⚔️ MISSÃO 3 ⚔️</h2>
+				<h3>A Chuva de Runas</h3>
+				
+				<p class="texto-prata">
+					
+					
+				</p>
+				
+				<img src="../img/cap2/chuva-de-runa.png" alt="Feito por I.A" class="imgsecao">
+				
+				<h4 class="texto-prata">Use um sinal para identificar os números da Ordem dos Pares</h4>
+				
+				<button onclick="ChuvaDeRunas()">Sinal</button>
+				
+				<p id="resultado3" class="resultado"></p>
+				
+			</div>
+			
+			<div id="texto5" style="display: none">
+				<h2 class="texto-prata">Fim do capitulo 3</h2>
+				
+				<a href="../cap03/index.html" id="texto-prata">Próximo capitulo</a>
+				
+			</div>
+			
+			<button onclick="voltar()" id="voltar">Voltar</button>
+			<button onclick="fim()" id="fim" style="display: none">Fim</button>
+		</section>
+		
+  </main>
+  
+  <footer>
+  	<h4>Alex</h4>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
