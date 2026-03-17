@@ -14,14 +14,8 @@ function missao3(){
 	document.getElementById("fim").style.display = "block";
 }
 
-function missao4(){
-	document.getElementById("voltar").style.display = "none";
-	document.getElementById("texto4").style.display = "none";
-	document.getElementById("texto5").style.display = "block";
-	
-}
-
 function fim(){
+	document.getElementById("voltar").style.display = "none";
 	document.getElementById("fim").style.display = "none";
 	document.getElementById("texto4").style.display = "none";
 	document.getElementById("texto5").style.display = "block";
