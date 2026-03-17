@@ -54,8 +54,12 @@ function numer0(){
 		}else{
 			document.getElementById("resultado2").innerHTML = `${res2}`;
 		}
-		
-		
-		
+}
+
+function ChuvaDeRunas(){
+	let res3 = document.getElementById("resultado3");
 	
+	for(i=0; i<=10; i++){
+		return res3.innerHTML = `${res3}`;
+	}
 }
