@@ -39,7 +39,7 @@ function voltar(){
 function sinal(){
 	let res = document.getElementById("resultado1");
 	
-	for(i=0; i<10; i++){
+	for(i=1; i<=10; i++){
 		res.innerHTML += i + "<br>"	;
 	}
 	
