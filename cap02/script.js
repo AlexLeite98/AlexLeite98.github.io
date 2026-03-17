@@ -61,8 +61,9 @@ function ChuvaDeRunas(){
 	}
 }
 
+let i = 100;
+
 function batalha(){
-	let hpTroll = Number(document.getElementById("HpTroll").value);
-	
-	document.getElementById("teste").innerHTML = hpTroll;
+	i -= 5;
+	document.getElementById("teste").innerHTML = 1;
 }
