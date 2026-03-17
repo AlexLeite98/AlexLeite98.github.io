@@ -60,3 +60,7 @@ function ChuvaDeRunas(){
 		}
 	}
 }
+
+function batalha(){
+	
+}
