@@ -37,10 +37,10 @@ function voltar(){
 }
 
 function sinal(){
-	let res = document.getElementById("resultado1").innerHTML;
+	let res = document.getElementById("resultado1");
 	
 	for(i=0; i<10; i++){
-		res.innerHTML += i + "<br>";	
+		res.innerHTML += i + "<br>"	;
 	}
 	
 }
