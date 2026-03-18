@@ -20,6 +20,8 @@ function fim(){
 	document.getElementById("texto4").style.display = "none";
 	document.getElementById("texto5").style.display = "block";
 	document.getElementById("cap3").style.display = "block";
+	document.getElementById("musica").play();
+	
 }
 
 function voltar(){
