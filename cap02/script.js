@@ -84,8 +84,23 @@ function batalha(){
 	let troll = Math.floor(Math.random()*(4-1 + 1)+1);
 	
 	if(troll==1){
-		hpAlex -= trollAtk
-		danoTroll.innerHTML = `Troll ataca Alex: Dano: ${alexAtk}`;
+		hpAlex -= trollAtk;
+		danoTroll.innerHTML = `Troll ataca Alex: Dano: ${trollAtk}`;
+		
+	}else if(troll==2){
+		hpMeri -= trollAtk;
+		danoTroll.innerHTML = `Troll ataca Meri: Dano: ${trollAtk}`;
+		
+	}else if(troll==3){
+		hpSelene -= trollAtk;
+		danoTroll.innerHTML = `Troll ataca Selene: Dano: ${trollAtk}`;
+		
+	}else if(troll==4){
+		hpAlex -= trollAtk;
+		hpMeri -= trollAtk;
+		hpSelene -= trollAtk;
+		danoTroll.innerHTML = `Troll ataca todos: Dano: ${trollAtk}`;
+		
 	}
 	
 	document.getElementById("teste").innerHTML = `Alex ATK: ${alexAtk} <br>Meri ATK: ${meriAtk} <br>Selene ATK: ${seleneAtk}`;
