@@ -15,12 +15,12 @@ function missao3(){
 }
 
 function fim(){
+	document.getElementById("musica").play();
 	document.getElementById("voltar").style.display = "none";
 	document.getElementById("fim").style.display = "none";
 	document.getElementById("texto4").style.display = "none";
 	document.getElementById("texto5").style.display = "block";
 	document.getElementById("cap3").style.display = "block";
-	document.getElementById("musica").play();
 	
 }
 
