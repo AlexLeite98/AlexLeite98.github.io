@@ -61,9 +61,15 @@ function ChuvaDeRunas(){
 	}
 }
 
-let i = 100;
+let hpTroll = 100;
+let hpAlex = 90;
+let hpMeri = 70; 
+let hpSelene = 60;
 
 function batalha(){
-	i -= 5;
+	let alexAtk = Math.floor(Math.random()*(20-1 + 1)+1);
+	let meriAtk = Math.floor(Math.random()*(12-1 + 1));
+	let seleneAtk
+	
 	document.getElementById("teste").innerHTML = i;
 }
