@@ -68,8 +68,8 @@ let hpSelene = 60;
 
 function batalha(){
 	let alexAtk = Math.floor(Math.random()*(20-1 + 1)+1);
-	let meriAtk = Math.floor(Math.random()*(12-1 + 1));
-	let seleneAtk
+	let meriAtk = Math.floor(Math.random()*(12-1 + 1)+1);
+	let seleneAtk = Math.floor(Math.random()*(8-1 + 1)+1)
 	
 	document.getElementById("teste").innerHTML = i;
 }
