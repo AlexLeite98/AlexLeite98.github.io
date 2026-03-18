@@ -85,7 +85,7 @@ function batalha(){
 	
 	if(troll==1){
 		hpAlex -= trollAtk
-		danoTroll.innerHTML = `Troll ataca Alex: Dano: ${alexAtk}`
+		danoTroll.innerHTML = `Troll ataca Alex: Dano: ${alexAtk}`;
 	}
 	
 	document.getElementById("teste").innerHTML = `Alex ATK: ${alexAtk} <br>Meri ATK: ${meriAtk} <br>Selene ATK: ${seleneAtk}`;
