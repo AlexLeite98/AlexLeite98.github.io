@@ -103,5 +103,10 @@ function batalha(){
 		
 	}
 	
+	document.getElementById("hpTroll").innerHTML = hpTroll;
+	document.getElementById("hpAlex").innerHTML = hpAlex;
+	document.getElementById("hpMeri").innerHTML = hpMeri;
+	document.getElementById("hpSelene").innerHTML = hpSelene;
+	
 	document.getElementById("teste").innerHTML = `Alex ATK: ${alexAtk} <br>Meri ATK: ${meriAtk} <br>Selene ATK: ${seleneAtk}`;
 }
