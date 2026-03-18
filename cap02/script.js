@@ -65,12 +65,27 @@ let hpTroll = 100;
 let hpAlex = 90;
 let hpMeri = 70; 
 let hpSelene = 60;
-
+let danoTroll = document.getElementById("danoTroll");
 function batalha(){
+	//aqui calcula o dano de cada personagem
+	
 	let alexAtk = Math.floor(Math.random()*(20-1 + 1)+1);
 	let meriAtk = Math.floor(Math.random()*(12-1 + 1)+1);
 	let seleneAtk = Math.floor(Math.random()*(8-1 + 1)+1);
 	let trollAtk = Math.floor(Math.random()*(20-1 + 1)+1);
+	
+	//aqui calcula o dano recebido
+	
+	hpTroll -= alexAtk;
+	hpTroll -= meriAtk;
+	hpTroll -= seleneAtk;
+	
+	let troll = Math.floor(Math.random()*(4-1 + 1)+1);
+	
+	if(troll==1){
+		hpAlex -= trollAtk
+		
+	}
 	
 	document.getElementById("teste").innerHTML = `Alex ATK: ${alexAtk} <br>Meri ATK: ${meriAtk} <br>Selene ATK: ${seleneAtk}`;
 }
