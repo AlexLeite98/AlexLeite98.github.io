@@ -72,5 +72,5 @@ function batalha(){
 	let seleneAtk = Math.floor(Math.random()*(8-1 + 1)+1);
 	let trollAtk = Math.floor(Math.random()*(20-1 + 1)+1);
 	
-	document.getElementById("teste").innerHTML = i;
+	document.getElementById("teste").innerHTML = `Alex ATK: ${alexAtk} <br>Meri ATK: ${meriAtk} <br>Selene ATK: ${seleneAtk}`;
 }
