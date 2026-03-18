@@ -108,5 +108,10 @@ function batalha(){
 	document.getElementById("HpMeri").innerHTML = hpMeri;
 	document.getElementById("HpSelene").innerHTML = hpSelene;
 	
+	if(hpTroll<=0){
+		document.getElementById("vs").style.display = "none";
+		document.getElementById("final").style.display = "block";
+	}
+	
 	document.getElementById("teste").innerHTML = `Alex ATK: ${alexAtk} <br>Meri ATK: ${meriAtk} <br>Selene ATK: ${seleneAtk}`;
 }
